@@ -24,6 +24,10 @@ print(x2)
 # plot part of the graph as line
 plt.plot(x2[:5], x2[:5]**2, 'r', label='X^2')
 # plot remainder of graph as dot
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 plt.plot(x2[4:], x2[4:]**2, 'r--', label='X^2')
 
 # Add a title, specify front parameters with fontdict
